@@ -1,0 +1,9 @@
+﻿Enable-Migrations -ContextTypeName IdentityContext -MigrationsDirectory DataContexts\IdentityMigrations
+Enable-Migrations -ContextTypeName RestaurantDbContext -MigrationsDirectory DataContexts\RestaurantMigrations
+
+Add-Migration -ConfigurationTypeName RestManager.DataContexts.IdentityMigrations.Configuration "InitialCreate"
+Add-Migration -ConfigurationTypeName RestManager.DataContexts.RestaurantMigrations.Configuration "InitialCreate"
+
+Update-Database -ConfigurationTypeName RestManager.DataContexts.IdentityMigrations.Configuration
+
+Update-Database -ConfigurationTypeName RestManager.DataContexts.RestaurantMigrations.Configuration

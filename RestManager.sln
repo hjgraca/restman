@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestManager", "RestManager\RestManager.csproj", "{6ACA2087-C857-4BCA-A4B3-4D14994DBC8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestManager.Tests", "RestManager.Tests\RestManager.Tests.csproj", "{B9D6BA43-1928-4BC1-BF22-A757A5E92458}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6ACA2087-C857-4BCA-A4B3-4D14994DBC8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ACA2087-C857-4BCA-A4B3-4D14994DBC8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ACA2087-C857-4BCA-A4B3-4D14994DBC8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ACA2087-C857-4BCA-A4B3-4D14994DBC8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9D6BA43-1928-4BC1-BF22-A757A5E92458}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9D6BA43-1928-4BC1-BF22-A757A5E92458}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9D6BA43-1928-4BC1-BF22-A757A5E92458}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9D6BA43-1928-4BC1-BF22-A757A5E92458}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

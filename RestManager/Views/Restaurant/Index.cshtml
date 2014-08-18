@@ -1,0 +1,21 @@
+﻿@model RestManager.Models.Restaurant
+
+<h2>@Model.Name</h2>
+
+<ul>
+    @foreach (var order in Model.Orders)
+    {
+        <li>@order.OrderDate</li>
+        <li>
+            <ul>
+                @foreach (var item in order.OrderItems)
+                {
+                    <li>@item.Product.Name</li>
+                    <li>@item.Quantity</li>
+                    <li>@item.Product.Price</li>
+                    <li>@(item.Quantity * item.Product.Price)</li>
+                }
+            </ul>
+        </li>
+    }
+</ul>
